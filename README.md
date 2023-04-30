@@ -46,7 +46,7 @@ Makeup_Price.rb
 1. けふも、けふとて、京都で。 
 Kyo_mo_Kyoto_de.py
 
-2. Special Calendar 2023
+2. Special Calendar 2024
 Special_Calendar.py
 
 3. Korean Spots Searcher  ～ 韓国旅行スポット可視化 ～

@@ -1,5 +1,5 @@
-''' ############### Special Calendar 2023 2022/10/18 #####################
-【作品名】Special Calendar 2023
+''' ############### Special Calendar 2024 2022/10/18 #####################
+【作品名】Special Calendar 2024
 【概要・目的】
 月名ボタンを押すと画面上部に月ごとのカレンダーが表示されるカレンダーアプリです。
 画面下部1番下の「memo✿」ボタンを押すとメモ帳が別ウィンドウで出てきます。
@@ -17,7 +17,7 @@
 #------------------------------ メソッド定義 カレンダー表示 --------------------------------
 def cal(month):
     calendar.setfirstweekday(calendar.SUNDAY) ##日曜日始まりに変更
-    explanation_lbl.configure(text=calendar.month(2023,month,w=6, l=2))
+    explanation_lbl.configure(text=calendar.month(2024,month,w=6, l=2))
 #----------------------------- メソッド定義2 メモ帳表示(おまけ機能) --------------------------
 def memo():
     root = tk.Tk() #↓↓↓メモ帳ウィンドウ作成↓↓↓
@@ -36,7 +36,7 @@ root = tk.Tk()
 root.geometry("600x950")
 root.title("Special Calendar")
 
-title_lbl = tk.Label(text="CALENDAR 2023", font=("MSゴシック", "20", "bold"),width=20,fg="pink") ##タイトルラベル定義
+title_lbl = tk.Label(text="CALENDAR 2024", font=("MSゴシック", "20", "bold"),width=20,fg="pink") ##タイトルラベル定義
 explanation_lbl = tk.Label(text="Click the Button!",font=("3"),fg="gray") ##↓↓↓説明ラベル定義↓↓↓
 comment_lbl = tk.Label(text="Have a good day.",fg="blue")
 credit_lbl = tk.Label(text="Produced by A.M.",fg="gray")
