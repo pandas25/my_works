@@ -5,17 +5,10 @@ Portfolio
 # Requirement
 Windows 10 pro
 
-**Ruby 3.2.1**
+Ruby 3.2.1
 
-```bash
-gem tty 0.10.0
-```
+Python 3.10.7
 
-**Python 3.10.7**
-
-```bash
-pandas 1.5.1
-```
 
 # Description
 
@@ -59,6 +52,11 @@ data_fileフォルダに，実行に必要なファイルを全て収納して�
 
     Korean_Spots_Searcher.py
     韓国旅行に行く人のためのプログラム.
+
+4. Task Management
+
+    Task_Management.py
+    スケジュールがごちゃごちゃになりやすい就活生のために.
 ```
 
 # Author
@@ -67,4 +65,4 @@ Matsuda Anna
 
 # Last Updated
 
-2023.05
+2023.06
