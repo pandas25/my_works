@@ -32,7 +32,7 @@ data_fileフォルダに，実行に必要なファイルを全て収納して�
 1. Makeup Price
 
     Makeup_Price.rb
-    その日使用した化粧品の総額を教えてくれるプログラム.
+    その日使用した化粧品の総額を教えてくれるプログラム
 ```
 
 ### **Python**
@@ -41,22 +41,17 @@ data_fileフォルダに，実行に必要なファイルを全て収納して�
 1. けふも、けふとて、京都で。
 
     Kyo_mo_Kyoto_de.py
-    京都市民が「本物の『京都人』」だ.
+    京都市民が「本物の『京都人』」だ
 
 2. Special Calendar 2024
 
     Special_Calendar.py
-    2024年のカレンダーデスクトップアプリ.
+    2024年のカレンダーデスクトップアプリ
 
-3. Korean Spots Searcher  ～ 韓国旅行スポット可視化 ～
-
-    Korean_Spots_Searcher.py
-    韓国旅行に行く人のためのプログラム.
-
-4. Task Management
+3. Task Management
 
     Task_Management.py
-    スケジュールがごちゃごちゃになりやすい就活生のために.
+    スケジュールがごちゃごちゃになりやすい就活生のために
 ```
 
 # Author
@@ -65,4 +60,4 @@ Matsuda Anna
 
 # Last Updated
 
-2023.06
+2023.07 
