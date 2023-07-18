@@ -37,14 +37,16 @@ def TaskList():
             pre.append(str(td)) ## tdを文字列化し、pre配列に追加
             deadline = "".join(pre) ## pre配列の中身を連結して、文字列に変換
             
-            ## 締め切り期限が翌日の場合のバグを防止(dayを削除)。翌日以降ならdaysを削除。
-            if "1 day" in deadline:
-                deadline = deadline.replace("day", "")
-            elif not "day" in deadline:
+            ## 締め切り期限が１日未満の場合の処理。
+            if not "day" in deadline:
                 deadline = "0 day," + deadline
-                deadline = deadline.replace("day", "")
-            else:
-                deadline = deadline.replace("days", "")
+            
+            ## dayを空の文字列に置き換え
+            deadline = deadline.replace("day", "") 
+            
+            ##  2日以上はdaysのsが残るため、sも空の文字列に置き換える。
+            if "s" in deadline:
+                deadline = deadline.replace("s", "")
             
             deadline = deadline.replace(" ","").split(",") ## 空白を消し、「,」で区切る。
             trash = deadline[1] ## 「時間:分:秒」を変数trashへ格納する
